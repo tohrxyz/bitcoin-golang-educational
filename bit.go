@@ -9,9 +9,6 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	// "github.com/cathalgarvey/base58"
-	// "github.com/anaskhan96/base58check"
-	// "github.com/itchyny/base58-go"
 	"github.com/btcsuite/btcutil/base58"
 	"golang.org/x/crypto/ripemd160"
 )
