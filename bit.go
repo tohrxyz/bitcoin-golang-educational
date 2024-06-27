@@ -37,7 +37,7 @@ func main() {
 	fmt.Println("ripemnd-160 of sha256:", hex.EncodeToString(ripemd_sha256_pubkey))
 
 	var buffer2 bytes.Buffer
-	buffer2.WriteByte(0x6F)
+	buffer2.WriteByte(0x00)
 	buffer2.Write(ripemd_sha256_pubkey)
 	var result2 []byte = buffer2.Bytes()
 
